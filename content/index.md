@@ -4,22 +4,16 @@ title: "Min fina titel"
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
 [FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Välkommen till min sida i kursen design. Här ska jag presentera kursmoment och senare ett projekt med tillhörande examination.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Jag heter Johan Gistorp och är född och uppvuxen i Skurup i Skåne. Jobbat som brevbärare sen jag tog studenten -09. Efter många år och hårt slit, så fick jag iden om att studera, så jag tog tjänstledigt och flyttade till Karlskrona med katten.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Datorer och teknik har varit ett intresse sen barnsben. Detta gjorde att BTH kändes rätt, både studiemässigt och distans från hemkommunen.
+När jag inte studerar så gillar jag att syssla med musik, spela och njuta av naturen.
+Jag kan inte spela något instrument, så det är mest lyssnadet i sig och historian bakom som är av intresse.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
-
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+MVH,
+Johan
