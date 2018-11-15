@@ -5,6 +5,235 @@
  * to style up the website so it is useable.
  */
 
+html {
+    background-color: #2f3640;
+    font-family: "Calabri", sans-serif;
+    font-color: #2f3640;
+}
+
+
+.outer-wrap,
+.inner-wrap,
+.row {
+    margin: 30px;
+}
+
+
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+    display: none;
+}
+
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+    display: none;
+}
+
+.region-header {
+    display: flex;
+}
+
+.my-navbar {
+    display: flex;
+}
+
+li {
+    padding: 2px;
+    margin: 5px;
+    list-style: none;
+}
+
+a {
+    color: #34e7e4;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #c23616;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.site-logo {
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.site-logo-text {
+    padding: 1em;
+    font-size: 48px;
+}
+
+.outer-wrap {
+    display: block;
+    background-color: #2f3640;
+}
+
+.outer-wrap-main {
+    display: block;
+    background-color: #2f3640;
+}
+
+.inner-wrap {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+    background-color: #ff7f50;
+}
+
+.inner-wrap-main {
+    padding-bottom: 48px;
+    background-color: #ff7f50;
+}
+
+.author-byline {
+    display: flex;
+    border: 2px solid #ccc;
+    overflow: auto;
+    margin-bottom: 46px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 1em;
+    font-size: 18px;
+    background-color: #ff7f50;
+}
+
+.figure.left {
+    margin: 0;
+    padding-right: 1em;
+    background-color: #2f3640;
+}
+
+.figure.right {
+    float: right;
+}
+
+.outer-wrap-footer {
+    padding: 1em;
+}
+
+.footer-column-wrapper {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.footer-column {
+    width: 33%;
+}
+
+.footer-column-1,
+.footer-column-2 {
+    padding-left: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-right: 2px solid #718093;
+}
+
+.footer-column-x ul {
+    padding: 0;
+}
+
+.site-footer {
+    border-top: 2px solid #718093;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.row {
+    display: block;
+    width: 100%;
+    padding: inherit;
+    margin: inherit;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.block {
+    margin-bottom: 48px;
+}
+
+.toc {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #718093;
+}
+
+.region-sidebar-left {
+    display: inline;
+    float: left;
+    margin-right: 1em;
+    width: 30%;
+}
+
+.region-sidebar-right {
+    display: inline;
+    float: left;
+    margin-left: 1em;
+    width: 30%;
+}
+
+.region-main {
+    display: inline;
+    float: left;
+}
+
+.region-breadcrumb {
+    display: inline;
+    float: left;
+    width: 100%;
+}
+
+.breadcrumb-list ul {
+    display: flex;
+}
+
+.region-main.has-sidebar-left {
+    display: inline;
+    float: left;
+    width: 65%;
+}
+
+.region-main.has-sidebar-right {
+    display: inline;
+    float: left;
+    width: 65%;
+}
+
+.next-previous {
+    margin-bottom: 2em;
+}
+
+.next {
+    text-align: right;
+    float: right;
+    width: 50%;
+}
+
+.previous {
+    text-align: left;
+    float: left;
+    width: 50%;
+}
+
+.block a {
+    color: #c23616;
+}
+
+.block a:visited {
+
+}
+
+.nav {
+    border: 0;
+}
+
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
     display: none;

@@ -1,3 +1,3 @@
-#### Footer col 1
+#### Om mig
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Denna sidan är skapad av Johan Gistorp med tanke att presentera redovisningar ifrån kursen design på BTH. 

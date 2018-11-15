@@ -4,7 +4,7 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-kursrepo
 
@@ -12,17 +12,15 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-redovisa
 ---
 Om
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+Kursen teknisk webbdesign och användarbarhet, eller lättare kallat design. Är tänkt att vara till hjälp för att få fram användarvänliga och tilltalande webbsidor.
 
-Skriv några kloka ord om kursen?
+Bilden under är tagen en varm sommardag i år.
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
-
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+[FIGURE src=image/landet.jpg?w=300 caption="En bild på Skånes slätter."]
