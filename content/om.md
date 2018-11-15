@@ -16,11 +16,11 @@ views:
                 type: single
                 route: block/om-redovisa
 ---
-Om
-=========================
 
-Kursen teknisk webbdesign och användarbarhet, eller lättare kallat design. Är tänkt att vara till hjälp för att få fram användarvänliga och tilltalande webbsidor.
+# Om
 
-Bilden under är tagen en varm sommardag i år.
+> Kursen teknisk webbdesign och användarbarhet, eller lättare kallat design. Är tänkt att vara till hjälp för att få fram användarvänliga och tilltalande webbsidor.
 
-[FIGURE src=image/landet.jpg?w=300 caption="En bild på Skånes slätter."]
+> ![Me](image/landet.jpg?w=300 "Bild på skånes slätter")
+
+> *En bild över det skånska landskapet, tagen i somras.*
