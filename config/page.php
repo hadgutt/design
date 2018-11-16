@@ -36,7 +36,7 @@ return [
             "data" => [
                 "class" => "large",
                 "siteLogo"      => "image/theme/leaf_256x256.png",
-                "siteLogoAlt"   => "Löv",
+                "siteLogoAlt"   => "Logo",
             ],
         ],
         [

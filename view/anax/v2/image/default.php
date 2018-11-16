@@ -32,5 +32,5 @@ if (isset($href)) {
 }
 
 ?><?= $hrefStart ?>
-<img <?= classList($class) ?> src="<?= asset($src) ?>"<?= $alt ?>>
+<img <?= classList($class) ?> src="<?= asset($src) ?>" alt="<?= $alt ?>">
 <?= $hrefEnd ?>

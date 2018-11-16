@@ -13,6 +13,6 @@ Efter många år och hårt slit, så fick jag iden om att studera, så jag tog t
 > När jag inte studerar så gillar jag att syssla med musik, spela och njuta av naturen.
 Jag kan inte spela något instrument, så det är mest lyssnadet i sig och historian bakom musiken/artisten som är av intresse.
 
-> ![Me](image/me.jpg?w=150 "Bild på mig")
+> ![Bild på mig](image/me.jpg?w=150)
 
 > // *Johan*

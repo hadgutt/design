@@ -91,7 +91,6 @@ h4 {
 }
 
 .inner-wrap-main {
-    padding-bottom: 48px;
     background-color: #ff7f50;
 }
 
@@ -108,7 +107,7 @@ h4 {
     margin-right: 20px;
     padding: 1em;
     font-size: 18px;
-    background-color: #ff7f50;
+    background-color: #3c6382;
 }
 
 .figure.left {
@@ -139,7 +138,7 @@ h4 {
     padding-left: 2px;
     margin-left: 4px;
     margin-right: 4px;
-    border-right: 2px solid #718093;
+    border-right: 2px solid #3c6382;
 }
 
 .footer-column-x ul {
@@ -147,9 +146,8 @@ h4 {
 }
 
 .site-footer {
-    border-top: 2px solid #718093;
     text-align: center;
-    padding-bottom: 24px;
+    padding-bottom: 12px;
 }
 
 .row {
@@ -171,9 +169,9 @@ h4 {
 
 .toc {
     list-style: none;
-    padding: 0;
+    padding-bottom: 30px;
     margin: 0;
-    border: 1px solid #718093;
+    border: 0px solid #718093;
 }
 
 .region-sidebar-left {
@@ -238,7 +236,7 @@ h4 {
 }
 
 .block a:visited {
-
+    color: #3c6382;
 }
 
 .nav {
