@@ -11,14 +11,6 @@ html {
     color: #2f3640;
 }
 
-
-.outer-wrap,
-.inner-wrap,
-.row {
-    margin: 30px;
-}
-
-
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
     display: none;
