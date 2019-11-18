@@ -31,5 +31,45 @@
         background-color: #b5dce1;
         border: 1px solid darken(#b5dce1, 20%);
         color: #111;
+        display: inline;
     }
+}
+
+.region-main {
+    margin-left: 1em;
+    &.has-sidebar-left {
+        float: left;
+        width: 60%;
+    }
+    &.has-sidebar-right {
+        float: left;
+        width: 60%;
+    }
+    &.has-sidebar-left.has-sidebar-right {
+        width: 60%;
+        margin-left: 0;
+    }
+}
+
+.region-sidebar-right,
+.region-sidebar-left {
+    float: left;
+    width: 30%;
+}
+
+
+.region-sidebar-right.has-sidebar-left,
+.region-sidebar-left.has-sidebar-right {
+    float: left;
+    overflow: auto;
+    width: 20%;
+}
+
+.region-breadcrumb {
+    float: left;
+    width: 99%;
+}
+
+.region-header {
+    display: flex;
 }

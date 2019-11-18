@@ -1,0 +1,68 @@
+/*!
+ * LESS version of the stylesheet for design kmom03.
+ *
+ * This stylesheet is for the design course and kmom03. In this kmom we get ahold of grid's.
+ * Both vertical and horizontal for easier aligment on the webpage using the grids properties.
+ */
+ /**
+  * Normalize and reset the style.
+  */
+ @import "normalize.css/normalize.less";
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+@import "module/stylechooser.less";  // Just an example module
+
+
+/**
+*import vertical grid
+**/
+@import "@desinax/vertical-grid/less/grid.less";
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import "base/basev3.less";
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+@import "@desinax/vertical-grid/less/grid.less";
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+@import "layout/layoutv3.less";
+@import "layout/regions-vgrid.less";
+@import "layout/responsive.less";
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+/**
+ * Google fonts
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Bitter|Noto+Sans');
+
+
+/**
+ * My own settings, not currently in their own module.
+ */
+
+ @import "layout/show-grid.less";

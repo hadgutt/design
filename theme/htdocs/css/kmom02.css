@@ -4331,6 +4331,13 @@ template {
 /**
  * Base style to affect HTML elements on a general scale.
  */
+@font-face {
+  font-family: 'B612';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('B612 Regular'), local('B612-Regular'), url(https://fonts.gstatic.com/s/b612/v4/3JnySDDxiSz36j6yHA.ttf) format('truetype');
+}
 html {
   overflow-y: scroll;
   background-color: #747d8c;
@@ -4339,7 +4346,7 @@ body {
   margin: 0;
   padding: 0;
   color: #2f3640;
-  background-color: #fff;
+  background-color: #808e9b;
   font: 100.01%/1 "Calibri", sans-serif;
 }
 li {
@@ -4541,6 +4548,16 @@ a.rm-menu {
     display: none;
   }
 }
+@media screen and (max-width: 1230px) {
+  .my-navbar a {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .my-navbar a {
+    font-size: 16px;
+  }
+}
 /**
  * Show off the regions used in the website, to ease styling.
  */
@@ -4571,6 +4588,40 @@ a.rm-menu {
   background-color: #b5dce1;
   border: 1px solid #6cbac4;
   color: #111;
+  display: inline;
+}
+.region-main {
+  margin-left: 1em;
+}
+.region-main.has-sidebar-left {
+  float: left;
+  width: 60%;
+}
+.region-main.has-sidebar-right {
+  float: left;
+  width: 60%;
+}
+.region-main.has-sidebar-left.has-sidebar-right {
+  width: 60%;
+  margin-left: 0;
+}
+.region-sidebar-right,
+.region-sidebar-left {
+  float: left;
+  width: 30%;
+}
+.region-sidebar-right.has-sidebar-left,
+.region-sidebar-left.has-sidebar-right {
+  float: left;
+  overflow: auto;
+  width: 20%;
+}
+.region-breadcrumb {
+  float: left;
+  width: 99%;
+}
+.region-header {
+  display: flex;
 }
 /**
 * Responsive menu

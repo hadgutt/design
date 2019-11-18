@@ -19,8 +19,7 @@ return [
             "lang" => "sv",
             "stylesheets" => [
                 // Change here to set another default stylesheet
-                "css/kmom02.css",
-                //"css/kmom01.css",
+                "css/kmom03.css",
             ],
             "javascripts" => [
                 "js/responsive-menu.js",
@@ -30,15 +29,6 @@ return [
 
     // These views are always loaded into the collection of views.
     "views" => [
-        [
-            "region" => "header-col-1",
-            "template" => "anax/v2/header/site_logo",
-            "data" => [
-                "class" => "large",
-                "siteLogo"      => "image/theme/leaf_256x256.png",
-                "siteLogoAlt"   => "Logo",
-            ],
-        ],
         [
             "region" => "header-col-1",
             "template" => "anax/v2/header/site_logo_text",

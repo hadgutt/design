@@ -1,0 +1,53 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Bitter|Noto+Sans');
+@bgColorHtml: #424242;
+@bgColorBody: #fff;
+@colorBody: #333;
+@bgColorFooter: #ddd;
+@bgColorH4: #b0b0b5;
+
+html {
+    overflow-y: scroll;
+    background-image: radial-gradient(circle at center, #485460, #1e272e);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    #desinax-hgrid.font(@fontSizeBody);
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorHtml;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrap-all {
+    background-image: radial-gradient(circle at center, #485460, #1e272e);
+}
+
+.outer-wrap-footer {
+    background-image: linear-gradient(to top, #d4d4d4, #313b45 20%);
+}
+
+.inner-wrap.inner-wrap-main {
+    background-color: #d4d4d4;
+}
+
+.my-navbar,
+.my-navbar ul {
+    background-image: linear-gradient(to right, #d4d4d4, #485460);
+}
+
+.rm-mobile,
+.rm-clicked,
+.rm-mobile a,
+.rm-clicked a {
+    background-image: linear-gradient(to right, #1e272e, #485460);
+}

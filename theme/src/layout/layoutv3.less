@@ -1,0 +1,142 @@
+.row {
+    #desinax-vgrid.row();
+    margin-bottom: 12px;
+}
+
+.inner-wrap {
+    #desinax-vgrid.grid(1100px);
+}
+
+.inner-wrap-header {
+    #desinax-vgrid.grid(100%);
+}
+
+.site-logo {
+    display: none;
+}
+
+.site-logo-text {
+    display: none;
+}
+
+
+.region-main {
+    #desinax-vgrid.column(18);
+
+    &.has-sidebar {
+        margin-left: 0;
+    }
+
+    &.has-sidebar-left.has-sidebar-right {
+        width: 60%;
+    }
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    #desinax-vgrid.column(6);
+}
+
+.region-flash-message {
+    background-color: #d4d4d4;
+}
+
+.inner-wrap-main {
+    padding-bottom: 48px;
+}
+
+.outer-wrap-footer {
+    background-color: @bgColorFooter;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.site-footer {
+    #desinax-vgrid.column(@columns);
+}
+
+.footer-column {
+    #desinax-vgrid.column(@columns / 3);
+    color: #d4d4d4;
+}
+
+.footer-column h4 {
+    color: #424242;
+}
+
+.footer-column-1,
+.footer-column-2 {
+    padding-left: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-right: 2px solid grey;
+}
+
+@media screen and (max-width: 700px) {
+    .footer-column {
+        #desinax-vgrid.column(@columns / 3);
+    }
+    .footer-column-1,
+    .footer-column-2 {
+        border-right: none;
+        border-bottom: 2px solid grey;
+    }
+}
+
+/**
+ * General layout
+ */
+
+.figure.right {
+    float: right;
+}
+
+.next {
+    float: right;
+    text-align: right;
+    #desinax-vgrid.column(@columns);
+}
+
+.previous {
+    float: left;
+    text-align: left;
+    #desinax-vgrid.column(@columns);
+}
+
+.block {
+    margin-bottom: 48px;
+    h4 {
+        background-color: @bgColorH4;
+    }
+}
+
+.fas.fa-bars {
+    color: white;
+}
+
+.breadcrumb-list li {
+    #desinax-vgrid.column(4);
+
+}
+
+/* links and list */
+li {
+    list-style: none;
+}
+
+a {
+    color: #4a69bd;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #4a69bd;
+}
+
+a:hover {
+    text-shadow: 1px 1px #A0A5A9;
+}
+
+* {
+    box-sizing: border-box;
+}
