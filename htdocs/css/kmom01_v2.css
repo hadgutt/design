@@ -245,16 +245,6 @@ a.rm-menu {
     display: none;
   }
 }
-@media screen and (max-width: 1230px) {
-  .my-navbar a {
-    font-size: 20px;
-  }
-}
-@media screen and (max-width: 1100px) {
-  .my-navbar a {
-    font-size: 16px;
-  }
-}
 /**
  * Show off the regions used in the website, to ease styling.
  */

@@ -1,10 +1,20 @@
-.vgrid .inner-wrap  {
+.vgrid .inner-wrap {
     @gridImage: "../img/grid_24x30x10-nomargin.png";
     //@gridImage: "../../img/grid_12x60x20-nomargin.png";
     #desinax-vgrid.showGrid(@gridImage, 1100px);
 
-    &.inner-wrap-header {
+    &.inner-wrap-header,
+    &.outer-wrap-header,
+    &.my-navbar {
         #desinax-vgrid.showGrid(@gridImage);
+    }
+
+    &.my-navbar {
+        background-image: none;
+    }
+
+    &.my-navbar li {
+        background-color: grey;
     }
 }
 
@@ -12,4 +22,10 @@
 .hgrid .inner-wrap {
     @gridImage: "../img/magic-number-@{magicNumber}.png";
     #desinax-hgrid.showGrid(@gridImage);
+
+    &.my-navbar,
+    &.rm-default,
+    &.rm-desktop {
+        background-image: none;
+    }
 }

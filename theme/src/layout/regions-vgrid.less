@@ -51,14 +51,17 @@ responsive
 
 @media screen and (max-width: 850px) {
     .region-main {
+        #desinax-vgrid.column(@columns);
+
         &.has-sidebar-left,
         &.has-sidebar-right {
             #desinax-vgrid.column(@columns);
         }
-        .right {
-            float: none;
+        &.has-sidebar-left.has-sidebar-right {
+            #desinax-vgrid.column(@columns);
         }
     }
+    
     .region-sidebar-right,
     .region-sidebar-left {
         #desinax-vgrid.column(@columns);
@@ -74,11 +77,5 @@ responsive
     .region-sidebar-right.has-sidebar-left,
     .region-sidebar-left.has-sidebar-right {
         #desinax-vgrid.column(@columns);
-    }
-}
-
-@media screen and (max-width: 1500px) {
-    .site-logo {
-        display: none;
     }
 }
