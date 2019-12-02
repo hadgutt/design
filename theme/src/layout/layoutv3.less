@@ -11,15 +11,6 @@
     #desinax-vgrid.grid(100%);
 }
 
-.site-logo {
-    display: none;
-}
-
-.site-logo-text {
-    display: none;
-}
-
-
 .region-main {
     #desinax-vgrid.column(@columns * 3 / 4);
     #desinax-vgrid.push(2)
@@ -52,17 +43,27 @@
 }
 
 .region-flash-message {
-    background-color: #d4d4d4;
+    background-color: @backgroundGrey;
 }
 
-.inner-wrap-main {
-    padding-bottom: 48px;
+.region-breadcrumb {
+    #desinax-vgrid.column(@columns);
+    background-color: @backgroundGrey;
 }
 
-.outer-wrap-footer {
-    background-color: @bgColorFooter;
-    margin: 0 auto;
-    padding: 1em;
+
+.region-header-col-1,
+.region-header-col-3 {
+    #desinax-vgrid.column(@columns);
+    background-image: linear-gradient(to right, @backgroundGrey, @backgroundMidnight);
+}
+
+.region-header-col-2 {
+    #desinax-vgrid.column(@columns);
+}
+
+.region-flash {
+    #desinax-vgrid.column(@columns);
 }
 
 .site-footer {
@@ -71,32 +72,7 @@
 
 .footer-column {
     #desinax-vgrid.column(@columns / 3);
-    color: #d4d4d4;
-}
-
-.footer-column h4 {
-    color: #424242;
-}
-
-.footer-column-1,
-.footer-column-2 {
-    padding-left: 2px;
-    margin-left: 4px;
-    margin-right: 4px;
-    border-right: 2px solid grey;
-}
-
-
-@media screen and (max-width: 1000px) {
-    .region-main {
-        #desinax-vgrid.column(@columns);
-    }
-}
-
-@media screen and (max-width: 850px) {
-    .region-main {
-        #desinax-vgrid.column(@columns);
-    }
+    color: @backgroundGrey;
 }
 
 
@@ -104,37 +80,18 @@
  * General layout
  */
 
-.figure.right {
-    float: right;
-}
-
 .next {
     float: right;
-    text-align: right;
-    #desinax-vgrid.column(@columns);
 }
 
 .previous {
     float: left;
-    text-align: left;
-    #desinax-vgrid.column(@columns);
-}
-
-.block {
-    margin-bottom: 48px;
-    h4 {
-        background-color: @bgColorH4;
-    }
 }
 
 .fas.fa-bars {
     color: white;
 }
 
-.breadcrumb-list li {
-    #desinax-vgrid.column(4);
-
-}
 
 /* links and list */
 li {
@@ -151,9 +108,27 @@ a:visited {
 }
 
 a:hover {
-    text-shadow: 1px 1px #A0A5A9;
+    text-shadow: 1px 1px #a0a5a9;
 }
 
 * {
     box-sizing: border-box;
+}
+
+
+/* Responsive layout with grid */
+@media screen and (max-width: 1000px) {
+    .region-main {
+        #desinax-vgrid.column(@columns);
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .region-main {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .footer-column {
+        #desinax-vgrid.column(@columns);
+    }
 }

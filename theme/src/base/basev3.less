@@ -3,20 +3,10 @@
  */
 
 @import url('https://fonts.googleapis.com/css?family=Bitter|Noto+Sans');
-@bgColorHtml: #424242;
-@bgColorBody: #fff;
-@colorBody: #333;
-@bgColorFooter: #ddd;
-@bgColorH4: #b0b0b5;
-#desinax-hgrid.activateDefaultTypography();
-
-@fontFamilyHeadings: @fontFamilyLato;
-@fontFamilyBody:     @fontFamilyLato;
-@fontFamilyCode:     @fontFamilyLato;
 
 html {
     overflow-y: scroll;
-    background-image: radial-gradient(circle at center, #485460, #1e272e);
+    background-image: radial-gradient(circle at center, @backgroundMidnight, @backgroundDark);
 }
 
 body {
@@ -25,28 +15,26 @@ body {
 
 img {
     max-width: 100%;
+    filter: grayscale(80%);
 }
 
 .wrap-all {
-    background-image: radial-gradient(circle at center, #485460, #1e272e);
+    background-image: radial-gradient(circle at center, @backgroundMidnight, @backgroundDark);
 }
 
 .outer-wrap-footer {
-    background-image: linear-gradient(to top, #d4d4d4, #313b45 20%);
+    background-image: linear-gradient(to top, @backgroundGrey, #313b45 20%);
 }
 
 .inner-wrap.inner-wrap-main {
-    background-color: #d4d4d4;
+    background-color: @backgroundGrey;
 }
 
 .my-navbar,
 .my-navbar ul {
-    background-image: linear-gradient(to right, #d4d4d4, #485460);
+    background-image: linear-gradient(to right, @backgroundGrey, @backgroundMidnight);
 }
 
-.rm-mobile,
-.rm-clicked,
-.rm-mobile a,
-.rm-clicked a {
-    background-image: linear-gradient(to right, #1e272e, #485460);
+.rm-mobile {
+    background-image: linear-gradient(to right, @backgroundDark, @backgroundMidnight);
 }

@@ -1,10 +1,18 @@
 /*!
- * LESS version of the stylesheet for design kmom03.
+ * LESS version av stilen kmom03.
  *
- * This stylesheet is for the design course and kmom03. In this kmom we get ahold of grid's.
- * Both vertical and horizontal for easier aligment on the webpage using the grids properties.
+ *
+ * Det här temat är byggt för kmom03 i kursen design,
+ * ett vertikalt och horisontellt grid har implementerats för att lättare styla regionerna.
  */
- /**
+
+/* Frequently used colors */
+@backgroundGrey:        #d4d4d4;
+@backgroundMidnight:    #485460;
+@backgroundDark:        #1e272e;
+
+
+/**
   * Normalize and reset the style.
   */
  @import "normalize.css/normalize.less";
@@ -41,7 +49,6 @@
  */
 @import "base/basev3.less";
 @import "layout/layoutv3.less";
-@import "layout/regions-vgrid.less";
 @import "layout/responsive.less";
 
 /**
@@ -64,3 +71,9 @@
  */
 
  @import "layout/show-grid.less";
+
+ #desinax-hgrid.activateDefaultTypography();
+
+ @fontFamilyHeadings: @fontFamilyLato;
+ @fontFamilyBody:     @fontFamilyLato;
+ @fontFamilyCode:     @fontFamilyLato;
