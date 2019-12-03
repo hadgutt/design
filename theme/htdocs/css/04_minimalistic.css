@@ -1,9 +1,8 @@
 /*!
- * LESS version av stilen kmom03.
+ * LESS version av stilen kmom04.
  *
  *
- * Det här temat är byggt för kmom03 i kursen design,
- * ett vertikalt och horisontellt grid har implementerats för att lättare styla regionerna.
+ * Detta är en minimalistisk version av temat kmom04.
  */
 /* Frequently used colors */
 /**
@@ -418,32 +417,32 @@ template {
 }
 html {
   overflow-y: scroll;
-  background-image: radial-gradient(circle at center, #485460, #1e272e);
+  background-image: radial-gradient(circle at center, #f7d794, #fbc531);
 }
 body {
   font: 16px/1.5 'Lato', sans-serif;
 }
 img {
   max-width: 100%;
-  filter: grayscale(80%);
+  filter: none;
 }
 .wrap-all {
-  background-image: radial-gradient(circle at center, #485460, #1e272e);
+  background-image: radial-gradient(circle at center, #f7d794, #fbc531);
 }
 .outer-wrap-footer {
-  background-image: linear-gradient(to top, #d4d4d4, #485460 20%);
+  background-image: linear-gradient(to top, #ff9f43, #f7d794 20%);
 }
 .inner-wrap.inner-wrap-main {
-  background-color: #d4d4d4;
-  color: #000;
+  background-color: #f7d794;
+  color: #303952;
   font-family: "Noto Sans", sans-serif;
 }
 .my-navbar,
 .my-navbar ul {
-  background-image: linear-gradient(to right, #d4d4d4, #485460);
+  background-image: linear-gradient(to right, #ff9f43, #f7d794);
 }
 .rm-mobile {
-  background-image: linear-gradient(to right, #1e272e, #485460);
+  background-image: linear-gradient(to right, #fbc531, #f7d794);
 }
 .row {
   display: block;
@@ -511,7 +510,7 @@ img {
   margin-right: 0.52083333%;
 }
 .region-flash-message {
-  background-color: #d4d4d4;
+  background-color: #f7d794;
 }
 .region-breadcrumb {
   display: inline;
@@ -519,7 +518,7 @@ img {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  background-color: #d4d4d4;
+  background-color: #f7d794;
 }
 .region-header-col-1,
 .region-header-col-3 {
@@ -528,7 +527,7 @@ img {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  background-image: linear-gradient(to right, #d4d4d4, #485460);
+  background-image: linear-gradient(to right, #ff9f43, #f7d794);
 }
 .region-header-col-2 {
   display: inline;
@@ -557,7 +556,7 @@ img {
   width: 32.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  color: #d4d4d4;
+  color: #222f3e;
 }
 /**
  * General layout
@@ -569,24 +568,24 @@ img {
   float: left;
 }
 .fas.fa-bars {
-  color: #fff;
+  color: #485460;
 }
 /* links and list */
 li {
   list-style: none;
 }
 a {
-  color: #4a69bd;
+  color: #222f3e;
   text-decoration: none;
 }
 a:visited {
-  color: #4a69bd;
+  color: #222f3e;
 }
 * {
   box-sizing: border-box;
 }
 .my-navbar {
-  color: #000;
+  color: #303952;
 }
 /* Responsive layout with grid */
 @media screen and (max-width: 1000px) {
@@ -615,7 +614,7 @@ a:visited {
   }
 }
 .inner-wrap code {
-  background-color: #d4d4d4;
+  background-color: #f7d794;
 }
 /**
  * Layout for responsive style through media queries.

@@ -410,15 +410,10 @@ template {
  * Base style to affect HTML elements on a general scale.
  */
 @font-face {
-  font-family: 'Bitter';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Bitter Regular'), local('Bitter-Regular'), url(https://fonts.gstatic.com/s/bitter/v15/rax8HiqOu8IVPmn7f4xs.ttf) format('truetype');
-}
-@font-face {
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: local('Noto Sans'), local('NotoSans'), url(https://fonts.gstatic.com/s/notosans/v9/o-0IIpQlx3QUlC5A4PNr5TRF.ttf) format('truetype');
 }
 html {
@@ -436,10 +431,12 @@ img {
   background-image: radial-gradient(circle at center, #485460, #1e272e);
 }
 .outer-wrap-footer {
-  background-image: linear-gradient(to top, #d4d4d4, #313b45 20%);
+  background-image: linear-gradient(to top, #d4d4d4, #485460 20%);
 }
 .inner-wrap.inner-wrap-main {
   background-color: #d4d4d4;
+  color: #000;
+  font-family: "Noto Sans", sans-serif;
 }
 .my-navbar,
 .my-navbar ul {
@@ -572,7 +569,7 @@ img {
   float: left;
 }
 .fas.fa-bars {
-  color: white;
+  color: #fff;
 }
 /* links and list */
 li {
@@ -585,11 +582,11 @@ a {
 a:visited {
   color: #4a69bd;
 }
-a:hover {
-  text-shadow: 1px 1px #a0a5a9;
-}
 * {
   box-sizing: border-box;
+}
+.my-navbar {
+  color: #000;
 }
 /* Responsive layout with grid */
 @media screen and (max-width: 1000px) {
@@ -616,6 +613,9 @@ a:hover {
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
   }
+}
+.inner-wrap code {
+  background-color: #d4d4d4;
 }
 /**
  * Layout for responsive style through media queries.

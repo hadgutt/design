@@ -1,8 +1,7 @@
 /**
  * Base style to affect HTML elements on a general scale.
  */
-
-@import url('https://fonts.googleapis.com/css?family=Bitter|Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 
 html {
     overflow-y: scroll;
@@ -15,7 +14,7 @@ body {
 
 img {
     max-width: 100%;
-    filter: grayscale(80%);
+    filter: @imgFilter;
 }
 
 .wrap-all {
@@ -23,11 +22,13 @@ img {
 }
 
 .outer-wrap-footer {
-    background-image: linear-gradient(to top, @backgroundGrey, #313b45 20%);
+    background-image: linear-gradient(to top, @backgroundGrey, @backgroundMidnight 20%);
 }
 
 .inner-wrap.inner-wrap-main {
-    background-color: @backgroundGrey;
+    background-color: @mainBackground;
+    color: @innerwrapColor;
+    font-family: "Noto Sans", sans-serif;
 }
 
 .my-navbar,
