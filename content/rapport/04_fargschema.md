@@ -15,21 +15,25 @@ Jag såg inga större begränsningar av val av sidor. Därför har det blivit si
 Metod
 -----------------------
 
-Innan starten av denna uppgift lästes samtliga artiklar som rekommenderats i kursmomentet. Det gav en bra bild av vad uppgiften kan tillföra och vad man vill få ut av analyseringen. För att välja färger användes ColorZilla, ett plugin till firefox. Där hämtades hexkoder och i ett av fallen användes den för att plocka ut slumpmässiga färger då bakgrunden var en videoprojektion.
+Innan starten av denna uppgift lästes samtliga artiklar som rekommenderats i kursmomentet. Det gav en bra bild av vad uppgiften kan tillföra och vad man vill få ut av analyseringen. För att välja färger användes ColorZilla, ett plugin till firefox. Där hämtades hexkoder och i ett av fallen användes den för att plocka ut slumpmässiga färger då bakgrunden var en videoprojektion. Palletton användes därefter till att klargöra färgerna och dess färgschema för att få en helhetsbild.
 
 Resultat
 -----------------------
 
 
-**Discogs.com** - Valde webbplatsen för att det är en sida jag kontinuerligt besöker. Layouten är simpel men ändå mångsidig. Svart och vitt kan vara lite tråkigt i längden. Men för mycket färg hade gett en konstig kontrast till artiklarna med starka färger i albumomslagen. Därför känns det som ett mer säkert kort att hålla det i svart och vitt för att inte förstöra användarens upplevelse och syn.  
+####Discogs.com
 
-![Discogs start](image/discogsfront.png?w=400)
+Valde webbplatsen för att det är en sida jag kontinuerligt besöker. Layouten är simpel men ändå mångsidig. Svart och vitt kan vara lite tråkigt i längden. Men för mycket färg hade gett en konstig kontrast till artiklarna med starka färger i albumomslagen. Därför känns det som ett mer säkert kort att hålla det i svart och vitt för att inte förstöra användarens upplevelse och syn.  
 
-*Startsidan på discogs.com*
+|![Discogs start](image/discogsfront.png?w=600)|
+|:--:|
+| *Startsidan på discogs.com* |
 
-![Discogs market](image/discogsmarket.png?w=400)
+| ![Discogs market](image/discogsmarket.png?w=600) |
+|:--:|
+| *Marknadsplatsen på discogs.com* |
 
-*Marknadsplatsen på discogs.com*
+
 <table style="border-spacing: 2px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #fff">
@@ -44,17 +48,17 @@ Resultat
 </table>
 *Färgpallett för discogs.com*
 
+####Mad Alchemy
 
-
-**Mad Alchemy** - Valet av denna sidan gjordes för att den är nischad och samtidigt har element av design som kan anses 'modiga'. Nischad för att själva huvudpunkten med sidan är analoga bakgrundsprojektioner till olika musikarrangemang.
+Valet av denna sidan gjordes för att den är nischad och samtidigt har element av design som kan anses 'modiga'. Nischad för att själva huvudpunkten med sidan är analoga bakgrundsprojektioner till olika musikarrangemang.
 
 Som bakgrund på hemsidan används en video av en projecering med röda, orange och lila toner. Navigeringen är lättläst och simpel, men fångar ändå en viss uppmärksamhet med den vita färgen och de små borderna i toppen. Den vita färgen används som en subtil accentfärg genom att videon i bakgrunden har ett väldigt spretigt färgspektrum.
 
 Rent negativa aspekter av sidan är att man använt sig av tre olika typsnitt; ett för header, ett för navbar och ett paragrafer. Där paragraferna är det enda typsnitt som använder sig av serif. Headern och navbaren har ett mer sans/open-sans typsnitt. I övrigt kan webbplatsen uppfattas som oorganiserad och smetig vid en första anblick. Detta tycker jag förändras när man får uppfattningen om vad webbplatsen ska innehålla samt att de lagt tid på att få en autentisk design som står ut, utan att bli för svårläst.
 
-![Mad Alchemy](image/MAstart.png?w=400)
-
-*Mad Alchemys design*
+| ![Mad Alchemy](image/MAstart.png?w=600) |
+|:--:|
+| *Mad Alchemys design* |
 
 <table style="border-spacing: 2px; border-collapse: separate">
 <tr>
@@ -73,17 +77,18 @@ Rent negativa aspekter av sidan är att man använt sig av tre olika typsnitt; e
 *Färgpallett för madalchemy.net*
 
 
+####CSS-Tricks
 
-**CSS-tricks** - Valet av CSS-tricks gjordes för att tillämpa en sida som har en mer grafisk profil än föregående sidor. CSS-tricks är en hemsida för lösningar och nymodigheter inom CSS där man får en övergripande bild av nya tekniker och smarta lösningar. Färgtemat på sidan är av en mörkare karaktär. Där knappar, brödtexter och vissa border använder sig av en gradient från gult till en plommonfärg. Detta blir en tilltalande effekt och gör att läsaren fångas av de olika textstyckena och fortsätter sin upplevelse av sidan.
+Valet av CSS-tricks gjordes för att tillämpa en sida som har en mer grafisk profil än föregående sidor. CSS-tricks är en hemsida för lösningar och nymodigheter inom CSS där man får en övergripande bild av nya tekniker och smarta lösningar. Färgtemat på sidan är av en mörkare karaktär. Där knappar, brödtexter och vissa border använder sig av en gradient från gult till en plommonfärg. Detta blir en tilltalande effekt och gör att läsaren fångas av de olika textstyckena och fortsätter sin upplevelse av sidan.
 
 Det märks att sidans design är väl tilltagen och genomtänkt i minsta detalj. Ju mer man studerar färgerna ser man att det finns en viss gradient mellan den gråa till mörklila/mörkblå. Som sen övergår i plommonfärgen och sedan till orange/gult; det känns som en genomtänkt palett helt enkelt. Typografimässigt använder sig webbplatsen av ett sans-serif typsnitt som passar in i den moderna designen.
 
 En detalj som sticker ut i navbaren är att varje enskilt val har en färg som blir aktiv när man är inne i underkategorien. Det skapar ett omedvetet minne mellan färg och ikon och kan göra användarens uppfattning av sidan kategorier lättare att memorera.
 
 
-![CSS-tricks](image/CSStricks.png?w=400)
-
-*Slumpmässig sida från CSS-tricks*
+| ![CSS-tricks](image/CSStricks.png?w=600) |
+|:--:|
+| *Slumpmässig sida från CSS-tricks* |
 
 <table style="border-spacing: 2px; border-collapse: separate">
 <tr>

@@ -449,7 +449,6 @@ img {
   width: 101.04166667%;
   margin-left: -0.52083333%;
   margin-right: -0.52083333%;
-  margin-bottom: 12px;
 }
 .row::after {
   content: "";
@@ -561,13 +560,19 @@ img {
 /**
  * General layout
  */
+table,
+tr,
+td {
+  border: none;
+}
 .next {
   float: right;
 }
 .previous {
   float: left;
 }
-.fas.fa-bars {
+.fas.fa-bars,
+.fas.fa-times {
   color: #ef0;
 }
 /* links and list */

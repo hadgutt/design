@@ -19,8 +19,8 @@ views:
 
 # Om
 
-> Kursen teknisk webbdesign och användarbarhet, eller lättare kallat design. Är tänkt att vara till hjälp för att få fram användarvänliga och tilltalande webbsidor.
+Kursen teknisk webbdesign och användarbarhet, eller lättare kallat design. Är tänkt att vara till hjälp för att få fram användarvänliga och tilltalande webbsidor.
 
-> ![Me](image/landet.jpg?w=300 "Bild på skånes slätter")
-
-> *En bild över det skånska landskapet, tagen i somras.*
+| ![Me](image/landet.jpg?w=300 "Bild på skånes slätter") |
+|:--:|
+| *Ett fotografi över skånes slätter* |

@@ -1,6 +1,5 @@
 .row {
     #desinax-vgrid.row();
-    margin-bottom: 12px;
 }
 
 .inner-wrap {
@@ -51,11 +50,10 @@
     background-color: @mainBackground;
 }
 
-
 .region-header-col-1,
 .region-header-col-3 {
     #desinax-vgrid.column(@columns);
-    background-image: linear-gradient(to right, @backgroundGrey, @backgroundMidnight);
+    background-image: linear-gradient(to right, @gradientOne, @gradientTwo);
 }
 
 .region-header-col-2 {
@@ -80,6 +78,12 @@
  * General layout
  */
 
+table,
+tr,
+td {
+    border: none;
+}
+
 .next {
     float: right;
 }
@@ -88,7 +92,8 @@
     float: left;
 }
 
-.fas.fa-bars {
+.fas.fa-bars,
+.fas.fa-times {
     color: @rmButton;
 }
 
