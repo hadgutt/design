@@ -1,28 +1,24 @@
 /*!
- * LESS version av stilen kmom04.
+ * LESS version av stilen kmom03.
  *
  *
- * Denna variant av kmom04 temat kallas för colorful med starka färger och hög kontrast mellan de.
+ * Det här temat är byggt för kmom03 i kursen design,
+ * ett vertikalt och horisontellt grid har implementerats för att lättare styla regionerna.
  */
 
 /* Frequently used colors */
-@mainBackground:        #ff6b6b;
-@gradientOne:           #ee5253;
-@gradientTwo:           #341f97;
-@gradientThree:         #2e86de;
-@linkColor:             #54a0ff;
-@footerColor:           #1dd1a1;
-@imgFilter:             none;
-@rmButton:              #1dd1a1;
-@innerwrapColor:        #222f3e;
-@navColor:              #363636;
+@mainBackground:        #d4d4d4;
+@gradientOne:           #d4d4d4;
+@gradientTwo:           #485460;
+@gradientThree:         #1e272e;
+@linkColor:             #4a69bd;
+@footerColor:           #d4d4d4;
+@imgFilter:             grayscale(80%);
+@rmButton:              #fff;
+@innerwrapColor:        #000;
+@navColor:              #000;
 
-.inner-wrap-main a,
-.inner-wrap-main a:visited,
-.breadcrumb-list a,
-.breadcrumb-list a:visited {
-    color: #363636;
-}
+
 
 /**
   * Normalize and reset the style.
@@ -30,12 +26,14 @@
  @import "normalize.css/normalize.less";
  /**
   * Google fonts
-  *
+  */
+
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 /**
  * Internal self contained modules, save in directory module/.
  */
 @import "module/stylechooser.less";  // Just an example module
+
 
 
 /**
@@ -53,6 +51,24 @@
 @import "@desinax/typographic-grid/less/typography-font-families.less";
 @import "@desinax/typographic-grid/less/typography-defaults.less";
 
+@import "@desinax/figure/less/figure.less"; // Blog figures for ease of access
+@import "@desinax/figure/less/codepen.less"; // Blog figures for ease of access
+@import "@desinax/figure/less/asciinema.less"; // Blog figures for ease of access
+
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
 
 /**
  * Layout style for general structure of header, navbar, main, footer
@@ -77,10 +93,11 @@
 
 
 
+
 /**
  * My own settings, not currently in their own module.
  */
 
- @import "layout/show-grid.less";
+@import "layout/show-grid.less";
 
- #desinax-hgrid.activateDefaultTypography();
+#desinax-hgrid.activateDefaultTypography();

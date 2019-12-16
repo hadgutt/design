@@ -316,7 +316,6 @@ template {
 /**
   * Google fonts
   *
-
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 /**
  * Internal self contained modules, save in directory module/.
@@ -420,7 +419,7 @@ html {
   background-image: radial-gradient(circle at center, #f7d794, #fbc531);
 }
 body {
-  font: 16px/1.5 'Lato', sans-serif;
+  font: 16px/1.5 "sans-serif";
 }
 img {
   max-width: 100%;
@@ -4913,7 +4912,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .hgrid .inner-wrap {
   background-image: url("../img/magic-number-24px.png");
 }
-.hgrid .inner-wrap.my-navbar,
 .hgrid .inner-wrap.rm-default,
 .hgrid .inner-wrap.rm-desktop {
   background-image: none;
@@ -4924,7 +4922,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', sans-serif;
+  font-family: "serif";
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4959,7 +4957,7 @@ h2 {
   line-height: 1.6;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #CCC;
 }
 h2 + h3 {
   margin-top: 24px;
@@ -4969,7 +4967,7 @@ h3 {
   line-height: 1.71428571;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #EEE;
 }
 h3 + h4 {
   margin-top: 24px;
@@ -4979,7 +4977,7 @@ h4 {
   line-height: 1;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #EEE;
 }
 h4 + h5 {
   margin-top: 24px;
@@ -4988,7 +4986,7 @@ h5 {
   font-size: 1.25em;
   line-height: 1.2;
   margin-bottom: 23px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #EEE;
 }
 h5 + h6 {
   margin-top: 24px;
@@ -4997,7 +4995,7 @@ h6 {
   font-size: 1.25em;
   line-height: 1.2;
   margin-bottom: 23px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #EEE;
 }
 p {
   margin-bottom: 24px;
@@ -5048,7 +5046,7 @@ code,
 kbd,
 samp,
 .code {
-  font-family: 'Lato', sans-serif;
+  font-family: "monospace";
 }
 code,
 samp {
