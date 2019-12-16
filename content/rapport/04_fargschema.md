@@ -25,11 +25,11 @@ Resultat
 
 Valde webbplatsen för att det är en sida jag kontinuerligt besöker. Layouten är simpel men ändå mångsidig. Svart och vitt kan vara lite tråkigt i längden. Men för mycket färg hade gett en konstig kontrast till artiklarna med starka färger i albumomslagen. Därför känns det som ett mer säkert kort att hålla det i svart och vitt för att inte förstöra användarens upplevelse och syn.  
 
-|![Discogs start](image/discogsfront.png?w=600)|
+|![Discogs start](image/rapporter/discogsfront.png?w=600)|
 |:--:|
 | *Startsidan på discogs.com* |
 
-| ![Discogs market](image/discogsmarket.png?w=600) |
+| ![Discogs market](image/rapporter/discogsmarket.png?w=600) |
 |:--:|
 | *Marknadsplatsen på discogs.com* |
 
@@ -56,7 +56,7 @@ Som bakgrund på hemsidan används en video av en projecering med röda, orange 
 
 Rent negativa aspekter av sidan är att man använt sig av tre olika typsnitt; ett för header, ett för navbar och ett paragrafer. Där paragraferna är det enda typsnitt som använder sig av serif. Headern och navbaren har ett mer sans/open-sans typsnitt. I övrigt kan webbplatsen uppfattas som oorganiserad och smetig vid en första anblick. Detta tycker jag förändras när man får uppfattningen om vad webbplatsen ska innehålla samt att de lagt tid på att få en autentisk design som står ut, utan att bli för svårläst.
 
-| ![Mad Alchemy](image/MAstart.png?w=600) |
+| ![Mad Alchemy](image/rapporter/MAstart.png?w=600) |
 |:--:|
 | *Mad Alchemys design* |
 
@@ -86,7 +86,7 @@ Det märks att sidans design är väl tilltagen och genomtänkt i minsta detalj.
 En detalj som sticker ut i navbaren är att varje enskilt val har en färg som blir aktiv när man är inne i underkategorien. Det skapar ett omedvetet minne mellan färg och ikon och kan göra användarens uppfattning av sidan kategorier lättare att memorera.
 
 
-| ![CSS-tricks](image/CSStricks.png?w=600) |
+| ![CSS-tricks](image/rapporter/CSStricks.png?w=600) |
 |:--:|
 | *Slumpmässig sida från CSS-tricks* |
 

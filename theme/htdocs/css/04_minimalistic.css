@@ -420,8 +420,12 @@ html {
 }
 body {
   font: 16px/1.5 "sans-serif";
+  font-family: "Calibri", sans-serif;
 }
-img {
+img,
+embed,
+object,
+video {
   max-width: 100%;
   filter: none;
 }

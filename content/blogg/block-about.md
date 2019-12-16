@@ -1,3 +1,3 @@
 #### Nytt och Noterat
 
-Kortare blogginlägg om vad som händer på dbwebb.se, kurserna samt webbprogrammering och webbutveckling med HTML, CSS, JavaScript, PHP och SQL i allmänhet.
+Här finner ni tre personliga blogginlägg som jag skrivit. Det är en del av kursen design och kursmoment 5.
