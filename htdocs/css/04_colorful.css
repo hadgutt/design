@@ -2,7 +2,7 @@
  * LESS version av stilen kmom04.
  *
  *
- * Denna variant av kmom04 temat kallas för colorful med starka färger och hög kontrast mellan de.
+ * Detta färglada tema är ett exempel på hur man kan få sin webplats till en färgklick.
  */
 /* Frequently used colors */
 .inner-wrap-main a,
@@ -437,6 +437,14 @@ object,
 video {
   max-width: 100%;
   filter: none;
+}
+::selection {
+  background: #ee5253;
+  /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ee5253;
+  /* Gecko Browsers */
 }
 .wrap-all {
   background-image: radial-gradient(circle at center, #341f97, #2e86de);

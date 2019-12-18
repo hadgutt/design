@@ -2,7 +2,7 @@
  * LESS version av stilen kmom04.
  *
  *
- * Detta är en version av temat kmom04 minimalistic med inverterade färger, ett såkallat "dark-theme".
+ * Detta är en version av temat kmom04 med mörka toner.
  */
 /* Frequently used colors */
 /**
@@ -431,6 +431,14 @@ object,
 video {
   max-width: 100%;
   filter: none;
+}
+::selection {
+  background: #576574;
+  /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #576574;
+  /* Gecko Browsers */
 }
 .wrap-all {
   background-image: radial-gradient(circle at center, #353b48, #222f3e);

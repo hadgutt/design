@@ -22,6 +22,14 @@ img, embed, object, video {
     filter: @imgFilter;
 }
 
+::selection {
+  background: @gradientOne; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: @gradientOne; /* Gecko Browsers */
+}
+
 .wrap-all {
     background-image: radial-gradient(circle at center, @gradientTwo, @gradientThree);
 }

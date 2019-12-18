@@ -432,6 +432,14 @@ video {
   max-width: 100%;
   filter: none;
 }
+::selection {
+  background: #ff9f43;
+  /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ff9f43;
+  /* Gecko Browsers */
+}
 .wrap-all {
   background-image: radial-gradient(circle at center, #f7d794, #fbc531);
 }
