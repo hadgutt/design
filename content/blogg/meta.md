@@ -8,13 +8,11 @@ views:
                 orderby: publishTime
                 orderorder: desc
 
-    byline:
-        region: main
-        template: anax/v2/byline/default
-        sort: 2
+    flash:
+        region: flash
+        template: anax/v2/image/default
         data:
-            meta:
-                type: author
+            src: "image/blogg/blogg_banner.jpg?width=1100&height=200&crop-to-fit&area=0,0,30,0"
 
     next-previous:
         region: main

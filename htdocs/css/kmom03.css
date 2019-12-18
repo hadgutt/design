@@ -420,9 +420,12 @@ html {
   overflow-y: scroll;
   background-image: radial-gradient(circle at center, #485460, #1e272e);
 }
+h1 {
+  font-family: "Calibri", sans-serif;
+}
 body {
   font: 16px/1.5 "sans-serif";
-  font-family: "Calibri", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 img,
 embed,

@@ -75,9 +75,47 @@ return [
             "title" => "Verktyg och möjligheter för utveckling.",
         ],
         [
+            "text" => "Rapporter",
+            "url" => "rapport",
+            "title" => "Rapporter och möjligheter för utveckling.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Rapport: Färgschema",
+                        "url" => "rapport/fargschema",
+                        "title" => "Rapport om färgschema",
+                    ],
+                    [
+                        "text" => "Rapport: Laddningstider",
+                        "url" => "rapport/laddningstid",
+                        "title" => "Rapport om laddningstider",
+                    ],
+                ],
+            ],
+        ],
+        [
             "text" => "Blogg",
             "url" => "blogg",
             "title" => "Min persoliga blogg.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Solen",
+                        "url" => "blogg/mitt-forsta-inlagg",
+                        "title" => "Solens värmande strålar",
+                    ],
+                    [
+                        "text" => "Katter",
+                        "url" => "blogg/mitt-andra-inlagg",
+                        "title" => "Blogg 2",
+                    ],
+                    [
+                        "text" => "Musik",
+                        "url" => "blogg/mitt-tredje-inlagg",
+                        "title" => "Blogg 3",
+                    ],
+                ],
+            ],
         ],
     ],
 ];
