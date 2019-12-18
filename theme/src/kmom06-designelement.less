@@ -1,0 +1,108 @@
+/*!
+ * LESS version av stilen kmom03.
+ *
+ *
+ * Det här temat är byggt för kmom03 i kursen design,
+ * ett vertikalt och horisontellt grid har implementerats för att lättare styla regionerna.
+ */
+
+/* Frequently used colors */
+@mainBackground:        #44bd32;
+@gradientOne:           #e1b12c;
+@gradientTwo:           #fbc531;
+@gradientThree:         #4cd137;
+@linkColor:             #353b48;
+@footerColor:           #353b48;
+@imgFilter:             none;
+@rmButton:              #fff;
+@innerwrapColor:        #2f3640;
+@navColor:              #2f3640;
+
+
+
+
+/**
+  * Normalize and reset the style.
+  */
+ @import "normalize.css/normalize.less";
+ /**
+  * Google fonts
+  */
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+@import "module/stylechooser.less";  // Just an example module
+
+
+
+/**
+*import vertical grid
+**/
+@import "@desinax/vertical-grid/less/grid.less";
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+@fontFamilyHeadings: "Lato", sans-serif;
+@fontFamilyBody:     @fontFamilyHeadings;
+@fontFamilyCode:     @fontFamilyHeadings;
+
+@import "@desinax/figure/less/figure.less"; // Blog figures for ease of access
+@import "@desinax/figure/less/codepen.less"; // Blog figures for ease of access
+@import "@desinax/figure/less/asciinema.less"; // Blog figures for ease of access
+
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+@import "base/basev3.less";
+@import "layout/layoutv3.less";
+@import "layout/responsive.less";
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+
+
+/**
+ * My own settings, not currently in their own module.
+ */
+
+@import "layout/show-grid.less";
+
+#desinax-hgrid.activateDefaultTypography();
